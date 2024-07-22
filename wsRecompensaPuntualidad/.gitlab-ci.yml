@@ -1,0 +1,8 @@
+## YAML Template.
+---
+sonar:
+ stage: test
+ tags:
+  - default
+ script:
+   - sonar-scanner -Dproject.settings=./sonar-scanner.properties
